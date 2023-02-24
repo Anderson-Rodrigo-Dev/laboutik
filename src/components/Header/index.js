@@ -13,7 +13,7 @@ import { useUserContext } from "../../context/userContext";
 import useFetchData from "../../hooks/useFetchData";
 import { Link } from "react-router-dom";
 
-const url = "http://localhost:3000/products";
+const url = "https://json-server-ccx9idxd4-anderson-rodrigo-dev.vercel.app/products";
 
 const Header = ({ scroll }) => {
   const [showDropMenu, setShowDropMenu] = useState(false);

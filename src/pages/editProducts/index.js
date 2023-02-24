@@ -12,7 +12,7 @@ const Editproduct = () => {
   const [urlId, setUrlId] = useState("");
   const [productToUpdate, setProductToUpdate] = useState(null);
 
-  const baseUrl = `http://localhost:3000/products`;
+  const baseUrl = `https://json-server-ccx9idxd4-anderson-rodrigo-dev.vercel.app/products`;
   const url = `${baseUrl}?q=${query}`;
 
   const { products } = useFetchData(url);

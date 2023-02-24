@@ -7,7 +7,7 @@ import Loading from "../../components/Loading";
 
 import useFetchData from "../../hooks/useFetchData";
 
-const url = "http://localhost:3000/products";
+const url = "https://json-server-ccx9idxd4-anderson-rodrigo-dev.vercel.app/products";
 
 const Home = ({ scroll }) => {
   const { products, loading } = useFetchData(url);

@@ -2,7 +2,7 @@ import { useEffect, useState } from "react";
 import useFetchData from "../../hooks/useFetchData";
 import * as S from "./styles";
 
-const url = "http://localhost:3000/products";
+const url = "https://json-server-ccx9idxd4-anderson-rodrigo-dev.vercel.app/products";
 
 const ProductForm = ({ product, handleUpdate, btnText }) => {
   const [data, setData] = useState({

@@ -9,7 +9,7 @@ import useFetchData from "../../hooks/useFetchData";
 
 const Search = ({scroll}) => {
   const [searchParams] = useSearchParams();
-  const url = "http://localhost:3000/products?" + searchParams;
+  const url = "https://json-server-ccx9idxd4-anderson-rodrigo-dev.vercel.app/products?" + searchParams;
 
   const { products, loading } = useFetchData(url);
 
