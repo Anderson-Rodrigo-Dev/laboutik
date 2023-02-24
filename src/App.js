@@ -25,7 +25,6 @@ function App() {
   useEffect(() => {
     const handleScroll = (event) => {
       const local = window.location.pathname;
-      console.log(local);
       if (local === "/admin/editproduct" || local === "/admin/newproduct" || local === "/bag") {
         return;
       } else {
